@@ -4,4 +4,7 @@ public class PetrolEngine{
 		
 		
 	}
+	public void stop() {
+		System.out.println(" stoped");
+		
 }

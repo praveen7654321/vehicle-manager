@@ -3,4 +3,8 @@ public class DiselEngine{
 		System.out.println(" Started");
 		
 	}
+	public void stop() {
+		System.out.println(" stoped");
+		
+	}
 }
