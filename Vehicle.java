@@ -4,11 +4,14 @@ public class Vehicle {
 		PetrolEngine pE = new PetrolEngine();
 
 		pE.start();
-		pE.stop();
+		
 		
 		DiselEngine dE = new DiselEngine();
 		dE.start();
-		dE.stop();
-
+		
+		ElectricEngine eE=new ElectricEngine();
+		eE.start();
+		
 	}
+	
 }
